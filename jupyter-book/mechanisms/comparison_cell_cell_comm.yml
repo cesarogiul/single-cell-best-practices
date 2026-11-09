@@ -1,0 +1,12 @@
+name: diff_cellcell
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.13
+  - pip
+  - pip:
+      - git+https://github.com/scverse/liana.git@v2.0.0
+      - lamindb==2.10.0
+      - pycrosstalker==2.1.8

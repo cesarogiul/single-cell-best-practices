@@ -115,6 +115,7 @@ project:
     - conditions/perturbation_modeling.bib
     - mechanisms/cell_cell_communication.bib
     - mechanisms/gene_regulatory_networks.bib
+    - mechanisms/comparison_cell_cell_comm.bib
     - deconvolution/bulk_deconvolution.bib
     - chromatin_accessibility/introduction.bib
     - chromatin_accessibility/quality_control.bib
@@ -175,6 +176,7 @@ project:
           children:
             - file: mechanisms/gene_regulatory_networks.ipynb
             - file: mechanisms/cell_cell_communication.ipynb
+            - file: mechanisms/comparison_cell_cell_comm.ipynb
         - title: Deconvolution
           children:
             - file: deconvolution/bulk_deconvolution.ipynb
